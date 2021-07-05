@@ -1,0 +1,106 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   font-family: 'Poppins', sans-serif;
+}
+a{
+   text-decoration: none;
+}
+h1{
+   font-size: 2.5rem;
+   color: gray;
+}
+.lead{
+   line-height: 1.6rem;
+   color: #181717;
+
+}
+/* Header-Navigation Area */
+#header-section{
+   background: #fafafa;
+   padding-bottom: 4rem;
+}
+.navbar{
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   padding: 1rem 0;
+   box-shadow: 0px 0px 10px lightslategray;
+   padding: 0 4rem;
+   height: 4rem;
+}
+.navbar-brand a{
+   font-size: 1.25rem;
+   text-transform: uppercase;
+   font-weight: 700;
+   color: #f8a409;
+}
+.navbar-list .nav-item{
+   display: inline-block;
+   list-style: none;
+   padding: 0 1.5rem;
+}
+.nav-item a{
+   color: black;
+
+}
+/* Header-Hero-Area */
+#header-hero{
+   padding-top: 4rem;
+}
+.container{
+   display: flex;
+   justify-content: space-between;
+}
+.half-width {
+   width: 45%;
+   padding: 0 5%;
+}
+.link-btn{
+   background-color: #f58700;
+   background-image: linear-gradient(40deg, #f58700 0%, #FB6262 100%);
+   color: white;
+   display: inline-block;
+   padding: 0.875rem 2.5rem;
+   border-radius: 1.5625rem;
+   margin-top: 2rem;
+   box-shadow: 0px 0px 13px #F58700;
+}
+.hero-content{
+   width: 100%;
+}
+.hero-content h1{
+   margin-bottom: 2rem;
+   margin-top: 3rem;
+}
+.heading-color{
+   color: #f58700;
+}
+.hero-img img{
+   width: 100%;
+}
+
+/* About us Section */
+#about-section{
+   background-image: url(/images/about-us-bg.jpg);
+   background-repeat: no-repeat;
+   height: 100%;
+   padding-bottom: 100px;
+}
+.about-content{
+   padding-top: 5rem;
+}
+.about-img img{
+   width: 82%;
+   margin-top: 3rem;
+   margin-left: 10rem;
+}
+.about-content h1{
+   margin-bottom: 2rem;
+}
+.about-btn{
+   margin-top: 5rem;
+}
