@@ -4,14 +4,15 @@
    box-sizing: border-box;
 }
 body{
-   font-family: 'Poppins', sans-serif;
+   font-family: 'Bitter', serif;
 }
 a{
    text-decoration: none;
 }
 h1{
-   font-size: 2.5rem;
+   font-size: 3.125rem;
    color: gray;
+   font-family: 'Dosis', sans-serif;
 }
 .lead{
    line-height: 1.6rem;
@@ -59,7 +60,6 @@ h1{
 }
 .half-width {
    width: 50%;
-   padding: 0 5%;
 }
 .link-btn{
    background-color: #f58700;
@@ -72,11 +72,11 @@ h1{
    box-shadow: 0px 0px 13px #F58700;
 }
 .hero-content{
-   width: 100%;
+   width: 70%;
 }
 .hero-content h1{
-   margin-bottom: 2rem;
-   margin-top: 3rem;
+   margin-bottom: 3rem;
+   margin-top: 4rem;
 }
 .heading-color{
    color: #f58700;
@@ -94,9 +94,10 @@ h1{
 }
 .about-content{
    padding-top: 8rem;
+   width: 100%;
 }
 .about-img img{
-   width: 80%;
+   width: 64%;
    margin-top: 3rem;
    margin-left: 5rem;
 }
@@ -105,4 +106,37 @@ h1{
 }
 .about-btn{
    margin-top: 5rem;
+}
+/* Recipe Section */
+#recipe-section{
+
+}
+.recipe-title{
+   text-align: center;
+   width: 50%;
+   margin: 0 auto;
+}
+.recipe-title p{
+   margin-top: 1.5rem;
+}
+.card-padding{
+   padding-top: 5rem;
+   padding-bottom: 5rem;
+}
+.card{
+   width: 30%;
+   box-shadow: 0px 0px 13px gray;
+   border-radius: 25px;
+   padding: 1rem;
+}
+.card-img img{
+   width: 100%;
+   margin-bottom: 2rem;
+   border-radius: 25px;
+}
+.card-content{
+   padding-bottom: 1rem;
+}
+.card-content h2{
+   margin-bottom: 1rem;
 }
